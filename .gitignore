@@ -1,0 +1,22 @@
+# secrets — never commit these
+.env
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# local databases
+.devkit-mcp/
+*.db
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+__MACOSX/
